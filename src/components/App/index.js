@@ -1,5 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+
+//import '../../styles/index.scss';
+
+//import logo from '/Users/alexma/Sites/projets/my-portfolio-react/src/assets/logos/logo.svg';
+import logo from '../../assets/logos/logo.svg';
+
 
 function App() {
   return (
