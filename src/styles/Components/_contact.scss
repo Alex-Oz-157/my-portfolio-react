@@ -1,0 +1,86 @@
+/* CONTACT -------------------------- */
+
+.contact {
+    width: 845px;
+    background-color: #E63331;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 1rem auto 3rem;
+    position: relative;
+}
+
+.contact .title {
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.contactButton {
+    width: 25%;
+    height: 28px;
+    padding: 0.3rem;
+    background-color: #003466;
+    color: #fff;
+    border: none;
+
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: -10%;
+    left: 38%; 
+}
+
+.iconLinks {
+    margin: 0 auto;
+}
+
+.iconLinks img {
+    height: 25px;
+    width: 25px;
+    margin: 0 2rem 1rem 2rem;
+}
+
+/* POP POP! -------------------------- */
+@keyframes popbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    } 
+}
+
+.poppop {
+    width: 25%;
+    height: 28px;
+    padding: 0.3rem;
+    margin: 2rem 0;
+    background-color: #E63331;
+    color: #fff;
+    border: none;
+
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    left:38%;
+
+
+}
+
+.poppop:hover {
+    animation: linear 1s popbeat;
+
+}
