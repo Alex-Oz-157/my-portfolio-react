@@ -1,0 +1,103 @@
+.greetings {
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 7rem;
+
+    height: 850px;
+    border-bottom: 5px solid #003466;
+    background-color: #E63331;
+    background-image: url("/Users/alexma/Sites/projets/my-portfolio-react/src/assets/img/irlande_portrait3.png"),  url("/Users/alexma/Sites/projets/my-portfolio-react/src/assets/img/dot-grid.png") ;
+    
+    background-origin: border-box;
+    background-repeat: no-repeat, repeat;
+    background-blend-mode: multiply;
+    background-size: 60%, 30%;
+    background-position-x: 100%;
+    background-position-y: 100%;
+
+}
+
+.welcome {
+    color:  #fff;
+
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.who {
+    color: #003466;
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+/*strong:first-child {
+    margin-top: 8rem;
+}*/
+
+strong {
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+    text-align: left;
+    padding:1rem;
+    margin-top: 3rem;
+    background-color: #fff;
+}
+
+
+.quote__1{
+    color: #003466;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 17.5rem;
+}
+
+.quote__2{
+    color: #003466;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 28rem;
+}
+
+.resume {
+    width: 17rem;
+
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    margin-top: 4rem;
+    padding: 0.8rem;
+
+    box-sizing: content-box;
+}
+
+
+
+.resume img {
+    width: 3rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.resume p {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.resume p:hover {
+    color : #003466;
+    cursor: pointer;
+}
