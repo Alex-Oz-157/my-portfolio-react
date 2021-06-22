@@ -2,6 +2,7 @@ import React from 'react';
 
 import Menu from '../Menu';
 import Greetings from '../Greetings';
+import About from '../About';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Menu />
       <main>
         <Greetings />
+        <About />
       </main>
     </div>
   );

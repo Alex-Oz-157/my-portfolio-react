@@ -1,0 +1,56 @@
+/* ABOUT -------------------------- */
+
+.about {
+    padding: 2rem 3rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.title::first-letter {
+    color: #003466;
+}
+.title {
+    color:  #E63331;
+
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    padding-bottom: 2rem;
+    padding: 1rem 5rem;
+
+}
+
+.presentation {
+    color: #003466;
+
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+em {
+    color:#E63331 ;
+    font-weight: 500;
+}
+
+/* ILLUSTRATIONS -------------------------- */
+
+.profile {
+    width: 80%;
+}
+
+li img {
+    width: 54px;
+    height: 54px;
+    fill: #003466;
+}
+
+.aknowledgment {
+    width: 40%;
+}

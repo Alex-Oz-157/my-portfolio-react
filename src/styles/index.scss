@@ -8,8 +8,9 @@
 
 @import './src/styles/Components/app.scss';
 
-@import './Components/menu.scss';
-@import './Components/greetings.scss';
+@import './Components/menu';
+@import './Components/greetings';
+@import './Components/about';
 
 body {
   margin: 0;
