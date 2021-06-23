@@ -1,0 +1,107 @@
+/* FORMATION -------------------------- */
+
+.formation {
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chronologie {
+    height: 720px;
+    width: 8px;
+    background-color: #003466;
+    border-radius: 10px;
+    margin-left: 3rem;
+}
+
+.dot:first-child {
+    margin-top: 8rem;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #003466;
+    margin: 13rem  -0.4rem;
+    position: relative;
+}
+
+
+
+.block {
+    width: 430px;
+    height: 190px;
+    background-color: #003466;
+    display: flex;
+    padding:1.5rem;
+    
+    position: absolute;
+    top: -90px;
+    left: 110px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 40px solid #003466;
+    border-bottom: 20px solid transparent;
+    
+    position: absolute;
+    top: 60px;
+    left: -40px;
+}
+
+
+.logoFormation{
+    height: 45px;
+    margin-right: 2rem;
+}
+
+.details {
+    text-align: left;
+}
+
+.formationTitle {
+    color: #fff;
+
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+
+}
+
+.formationDescription {
+    color: #fff;
+
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+}
+
+
+.formationSuite  {
+    margin-bottom: 7rem;
+}
+
+.formationSuite p {
+    color: #626060;
+
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+
+    padding: 1rem 16rem;
+
+    text-align: left;
+}
+
+.formationSuite span {
+    color: #626060;
+
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+}
