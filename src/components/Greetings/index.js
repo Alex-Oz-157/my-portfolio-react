@@ -14,7 +14,7 @@ function Greetings () {
       <strong>
         <p class="quote__2">but it makes it look good...<em>and more usable!</em></p>
       </strong>
-      <a href={resume} target="_blank">
+      <a href={resume} target="_blank" rel="noreferrer">
         <div class="resume">
           <img src={resumeIcon} alt="Mon CV" />
           <p class="who">Consulter mon CV</p>
