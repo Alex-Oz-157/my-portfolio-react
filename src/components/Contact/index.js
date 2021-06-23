@@ -18,7 +18,7 @@ function Contact () {
             <img src={linkedin} alt="linkedin profile"/>
           </a> 
 
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Alex-Oz-157?tab=repositories" target="_blank" rel="noreferrer">
             <img src={github} alt="resume"/>
           </a>
 
@@ -27,7 +27,7 @@ function Contact () {
           </a>
 
           <a href="https://www.flickr.com/photos/mr_renart/" target="_blank" rel="noreferrer">
-            <img src={flickr} alt="online photo gallery"/>
+            <img src={flickr} alt="online gallery"/>
           </a>  
         </div>
         <button class="contactButton">Stay tuned</button>

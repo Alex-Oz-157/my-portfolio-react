@@ -3,7 +3,7 @@ import React from 'react';
 function Menu () {
   return (
     <header>
-      <a name="top" id="top">
+      <a href="#top" name="top" id="top">
         <div class="logo">
           <p class="logoPortfolio">Portfolio.</p>
           <p class="logoName">Alexandre Maspimby</p>

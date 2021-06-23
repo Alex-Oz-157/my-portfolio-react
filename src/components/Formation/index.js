@@ -14,7 +14,7 @@ function Formation () {
             <div class="dot">
               <div class="block"> 
                 <div class="triangle"></div>
-                <img src={oclock} class="logoFormation"/>
+                <img src={oclock} class="logoFormation" alt="Logo O'clock"/>
                 <div class="details">
                   <h5 class="formationTitle">Développeur web / web-mobile</h5>
                   <h5 class="formationTitle">O'clock (2020-2021)</h5>
@@ -33,7 +33,7 @@ function Formation () {
             <div class="dot">
               <div class="block">
                 <div class="triangle"></div>
-                <img src={opquast} class="logoFormation"/>
+                <img src={opquast} class="logoFormation" alt="Logo Opquast"/>
                 <div class="details">
                   <h5 class="formationTitle">Certificat Opquast N° CNX2FA</h5>
                   <h5 class="formationTitle">Opquast (2021-26)</h5>
@@ -50,7 +50,7 @@ function Formation () {
             <div class="dot">
               <div class="block">
                 <div class="triangle"></div>
-                <img src={gobelins} class="logoFormation"/>
+                <img src={gobelins} class="logoFormation" alt="Logo Les Gobelins" />
                 <div class="details">
                   <h5 class="formationTitle">UX Design (ref. MM75)</h5>
                   <h5 class="formationTitle">Les Gobelins (2017)</h5>
