@@ -56,3 +56,104 @@ li img {
 .aknowledgment {
     width: 40%;
 }
+
+
+
+/* RESPONSIVE WEBDESIGN */
+@include i5SE {
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+    }
+
+    .title {
+        padding: 1rem 3rem;
+
+    }
+
+    .presentation {
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+
+    /* ILLUSTRATIONS -------------------------- */
+
+    .profile {
+        width: 80%;
+        margin-top: 3rem;
+    }
+  }
+  
+@include smallSmart {
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+    }
+
+    .title {
+        padding: 1rem 3rem;
+
+    } 
+
+    /* ILLUSTRATIONS -------------------------- */
+
+    .profile {
+        width: 80%;
+        margin-top: 3rem;
+    }
+}
+  
+@include smartphones {
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+    }
+
+    .title {
+        padding: 1rem 3rem;
+
+    }
+
+    /* ILLUSTRATIONS -------------------------- */
+
+    .profile {
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .aknowledgment {
+        margin-top: 4rem;
+        width: 100%;
+    } 
+}
+  
+  @include tablets {
+    /* ILLUSTRATIONS -------------------------- */
+
+    li img {
+        width: 44px;
+        height: 44px;
+        fill: #003466;
+    }
+
+    .aknowledgment {
+        display: none;
+    }
+  }
+  
+  @include desktop {
+    /* ILLUSTRATIONS -------------------------- */
+
+    li img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .aknowledgment {
+        display: none;
+    }
+  }

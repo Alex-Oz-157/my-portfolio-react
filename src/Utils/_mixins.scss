@@ -1,0 +1,36 @@
+// Media Quieries
+// ==========
+/* iPhone 5/SE*/
+@mixin i5SE {
+    @media (min-width: 275px) and (max-width:320px) {
+      @content;
+    }
+  }
+
+/* small Smartphones */
+@mixin smallSmart {
+    @media (min-width: 321px) and (max-width:424px) {
+    @content;
+    }
+}
+
+/* small Smartphones */
+@mixin smartphones {
+    @media (min-width: 349px) and (max-width:689px) {
+    @content;
+    }
+}
+
+/* Phablets + Tablets */
+@mixin tablets {
+    @media (min-width: 690px) and (max-width:1278px) {
+        @content;
+    }
+}
+
+/* Desktop Wide + Large tablets */
+@mixin desktop {
+    @media (min-width: 1279px) and (max-width:1500px) {
+        @content;
+    }
+}

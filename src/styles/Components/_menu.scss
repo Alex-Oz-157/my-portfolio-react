@@ -88,3 +88,146 @@ ul li {
     position: absolute;
     bottom: 3%;
 }
+
+
+/* RESPONSIVE WEBDESIGN */
+@include i5SE {
+    header {
+        width: 100vw;
+        height: 65px;
+        margin: 0%;
+        padding: 0;
+        border-bottom: 3px solid #fff;
+        border-right:none;
+
+        z-index: 3;
+    }
+
+    .logo {
+        margin-top: 1.2rem;
+        margin-bottom: 0;
+        z-index: 2;
+    }
+
+    .logoPortfolio {
+        width: 50%;
+    }
+}
+
+@include smallSmart {
+    header {
+        width: 100vw;
+        height: 50px;
+        margin: 0%;
+        padding: 0;
+        border-bottom: 3px solid #fff;
+        border-right:none;
+
+        z-index: 3;
+    }
+    
+}
+
+@include smartphones {
+    header {
+        width: 100vw;
+        height: 50px;
+        margin: 0%;
+        padding: 0;
+        border-bottom: 3px solid #fff;
+        border-right:none;
+
+        z-index: 3;
+    }
+
+    .navigation {
+        /*display: none;*/
+    }
+
+    .logo {
+        flex-direction: unset;
+        position: unset;
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .logoPortfolio {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 0.8rem;
+        margin-top: 7px;
+    }
+
+    .logoName {
+        width: 45%;
+        padding: 0.4rem;
+        font-size: 0.5rem;
+        top: 83%;
+        left: 27.5%;
+        z-index: 3;
+    }
+}
+
+@include tablets {
+    header {
+        width: 100vw;
+        height: 50px;
+        margin: 0%;
+        padding: 0;
+        border-bottom: 3px solid #fff;
+        border-right:none;
+
+        z-index: 3;
+    }
+
+    .logo {
+        flex-direction: unset;
+        position: unset;
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .logoPortfolio {
+        padding: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .logoName {
+        width: 20%;
+        padding: 0.4rem;
+        font-size: 0.5rem;
+        bottom: 0%;
+        left: 38.5%;
+    }
+
+    .navigation {
+        display: block;
+        margin: 0.7rem auto;
+
+        padding: 0;
+    }
+
+    .navList {
+        height: 45px;
+        display: flex; 
+        justify-content: center;
+        background-color: #003466 ;
+    }
+
+    .navItem {
+        font-size: 0.7rem;
+        margin: 1rem;
+    }
+}
+
+@include desktop {
+    
+}
