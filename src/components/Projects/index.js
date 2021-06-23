@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Projects () {
+const Projects = () => {
     return (
       <>
         <h2 class="title" id="projets">&#9612; Projets</h2>

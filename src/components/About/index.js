@@ -1,7 +1,7 @@
 import React from 'react';
 import profile from '../../assets/illustrations/undraw_Profile.svg'
 
-function About () {
+const About = () => {
     return (
       <>
         <h2 class="title" id="propos">&#9612; À propos</h2>

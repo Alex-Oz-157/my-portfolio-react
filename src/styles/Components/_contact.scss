@@ -86,3 +86,9 @@
     animation: linear 1s popbeat;
 
 }
+
+a {
+    scroll-behavior:smooth ;
+    animation: step-start;
+    animation: ease-in 2s;
+}

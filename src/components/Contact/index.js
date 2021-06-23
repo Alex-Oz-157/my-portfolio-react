@@ -5,11 +5,12 @@ import behance from '../../assets/pictos/behance.svg';
 import flickr from '../../assets/pictos/flickr.svg';
 
 
-function Contact () {
+const Contact = () => {
+
     return (
       <>
       <section class="contact" id="contact">
-        <h2 class="title">&#9612; contact</h2>
+        <h2 class="title" >&#9612; contact</h2>
         <p class="cardDescription">
           Nunc bibendum dui ac arcu molestie mollis sit amet sed urna. Quisque ultricies, enim vulputate suscipit egestas, justo sem iaculis lorem, et tristique lorem ex eget nisl.
         </p>

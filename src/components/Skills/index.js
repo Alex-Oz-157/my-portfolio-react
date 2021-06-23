@@ -13,7 +13,7 @@ import git from '../../assets/pictos/git.svg';
 import github from '../../assets/pictos/github_skills.svg';
 import vscode from '../../assets/pictos/vs_code.svg';
 
-function Skills () {
+const Skills = () => {
     return (
       <section class="skills" id="techniques">
         <h2 class="title">&#9612; Compétences Techniques</h2>

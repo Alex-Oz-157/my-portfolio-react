@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useRef }from 'react';
 import resumeIcon from '../../assets/pictos/resume.svg';
 import resume from '../../assets/resume/CV_developpeur-front-end-junior-alexandre_maspimby.pdf';
 
-function Greetings () {
+const Greetings = () => {
+
+
   return (
-    <div class="greetings">
+    <div class="greetings" id="top">
       <h1 class="welcome" id="Bienvenue">Bienvenue</h1>
       <p class="who">Je m'appelle Alexandre,</p>
       <p class="who">Je suis développeur web Front-end Junior</p>

@@ -5,7 +5,7 @@ import opquast from '../../assets/logos/opquast.png';
 import gobelins from '../../assets/logos/lesGobelins.png';
 
 
-function Formation () {
+const Formation = () => {
     return(
       <>
         <h2 class="title" id="formation">&#9612; Formation</h2>

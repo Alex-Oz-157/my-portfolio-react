@@ -101,3 +101,9 @@ strong {
     color : #003466;
     cursor: pointer;
 }
+
+#top {
+    scroll-behavior:smooth ;
+    animation: step-start;
+    animation: ease-in 2s;
+}

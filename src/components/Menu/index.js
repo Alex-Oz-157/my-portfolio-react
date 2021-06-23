@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Menu () {
+const Menu = () => {
   return (
     <header>
-      <a href="#top" name="top" id="top">
+      <a href="#top">
         <div class="logo">
           <p class="logoPortfolio">Portfolio.</p>
           <p class="logoName">Alexandre Maspimby</p>
@@ -17,8 +17,8 @@ function Menu () {
       </div>
       <nav class="navigation">
         <ul class="navList">
-          <li class="navItem" id="home"><a href="#top">&#9612; Home</a></li>
-          <li class="navItem" id="aPropos"><a href="#propos">À propos</a></li>
+          <li class="navItem" ><a href="#top">&#9612; Home</a></li>
+          <li class="navItem" id="apropos" ><a href="#propos">À propos</a></li>
           <li class="navItem" id="tech"><a href="#techniques">Compétences techniques</a></li>
           <li class="navItem" id="projects"><a href="#projets"> Projets</a></li>
           <li class="navItem" id="studies"><a href="#formation"> Formation</a></li>
