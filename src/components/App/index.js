@@ -3,8 +3,9 @@ import React from 'react';
 import Menu from '../Menu';
 import Greetings from '../Greetings';
 import About from '../About';
-import Formation from '../Formation';
+import Skills from '../Skills';
 import Projects from '../Projects';
+import Formation from '../Formation';
 import Contact from '../Contact';
 import Footer from '../Footer';
 
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Greetings />
         <About />
+        <Skills />
         <Projects />
         <Formation />
         <Contact />

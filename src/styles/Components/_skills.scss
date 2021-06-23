@@ -1,0 +1,99 @@
+/* SKILLS -------------------------- */
+
+.skills {
+    /*background-color:
+    linear-gradient(to bottom top  #003466, #fff);*/
+    margin-bottom: 7rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    border-bottom: 5px solid #E63331;
+    background-color: #fff;
+    opacity: 1;
+    background-image: radial-gradient(#003466 0.8500000000000001px, #fff 0.8500000000000001px);
+    background-size: 17px 17px;
+}
+
+
+.skills .subtitle {
+    color: #003466;
+}
+
+.skillsBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.programmation {
+    width: 31%;
+}
+
+.protypage {
+    width: 21%;
+    /*padding-left: 3rem;*/
+}
+
+
+.editor {
+    width: 8%;
+    text-align: center;
+    /*padding-left: 1rem;*/
+}
+
+.environnement {
+    width: 18%;
+    /*padding-left: 1rem;*/
+}
+
+.subtitle {
+    color:  #626060;
+
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+    padding-bottom: 0.5rem;
+}
+
+.blockSetup--prog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 1px solid #003466;
+    /*width: 100%;*/
+}
+
+.blockSetup--prot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 1px solid #003466;
+    /*width: 80%;*/
+}
+
+.blockSetup--edit {
+    display: flex;
+    border-top: 1px solid #003466;
+    /*width: 100%;*/
+}
+
+.blockSetup--env {
+    display: flex;
+    border-top: 1px solid #003466;
+}
+
+
+
+.skillSquare {   
+    height: 4rem;
+    width: 4rem;
+    /*border: 3px solid #E63331;*/
+    text-align: center;
+    /*padding: 1.3rem 0;*/
+    margin: 1rem;
+
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
