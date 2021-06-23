@@ -1,5 +1,6 @@
 import React from 'react';
-import resume from '../../assets/pictos/resume.svg'
+import resumeIcon from '../../assets/pictos/resume.svg';
+import resume from '../../assets/resume/CV_developpeur-front-end-junior-alexandre_maspimby.pdf';
 
 function Greetings () {
   return (
@@ -13,9 +14,9 @@ function Greetings () {
       <strong>
         <p class="quote__2">but it makes it look good...<em>and more usable!</em></p>
       </strong>
-      <a href="https://media-exp3.licdn.com/dms/document/C562DAQEmse3AWiuSrA/profile-treasury-document-pdf-analyzed/0/1623048694983?e=1624352400&v=beta&t=t0E8gApFIeM20p37nAL1BeR1nwZwo_0O0NbvedfPkCo" target="_blank" rel="noreferrer">
+      <a href={resume} target="_blank">
         <div class="resume">
-          <img src={resume} alt="Mon CV" />
+          <img src={resumeIcon} alt="Mon CV" />
           <p class="who">Consulter mon CV</p>
         </div> 
       </a> 
