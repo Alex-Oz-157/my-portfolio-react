@@ -21,7 +21,7 @@ function Skills () {
 
           <div class="programmation">
             <h3 class="subtitle">Programmation</h3>
-            <ul class="blockSetup--prog">
+            <ul class="blockSetup">
               <li class="skillSquare">
                 <img src={html5} alt="HTML 5"/>
               </li>
@@ -42,7 +42,7 @@ function Skills () {
 
           <div class="protypage">
             <h3 class="subtitle">Protypage</h3>
-            <ul class="blockSetup--prot">
+            <ul class="blockSetup">
               <li class="skillSquare">
                 <img src={figma} alt="Figma"/>
               </li>
@@ -60,7 +60,7 @@ function Skills () {
 
           <div class="environnement">
             <h3 class="subtitle">Environnement</h3>
-            <ul class="blockSetup--env">
+            <ul class="blockSetup">
               <li class="skillSquare">
                 <img src={git} alt="Git"/>
               </li>
@@ -72,7 +72,7 @@ function Skills () {
 
         <div class="editor">
           <h3 class="subtitle">Editeur</h3>
-          <ul class="blockSetup--edit">
+          <ul class="blockSetup">
             <li class="skillSquare">
               <img src={vscode} alt="Visual Studio Code"/>
             </li>
