@@ -105,3 +105,191 @@
     font-weight: 500;
     line-height: 1.3rem;
 }
+
+/* RESPONSIVE WEBDESIGN */
+@include i5SE {
+    .formation {
+        padding: 1rem 3rem;
+    }
+
+    .chronologie {
+        height: 855px;
+        margin-left: 0;
+    }
+
+    .dot:first-child {
+        margin-top: 5rem;
+    }
+
+    .dot {
+        margin: 21rem -0.4rem;
+    }
+
+    .triangle {
+        border-right: 30px solid #003466;
+        left: -15px;
+    }
+
+
+
+    .block {
+        display: block;
+        width: 220px;
+        height: 320px;
+        left: 38px;
+    }
+
+    .logoFormation{
+        margin-bottom: 1rem;
+    }
+
+    .formationTitle {
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+    
+    .formationDescription {
+        font-size: 0.7rem;
+        font-weight: 300;
+        line-height: 1.3rem;
+    }
+
+    .formationSuite  {
+        margin-top: 7rem ;
+        margin-bottom: 5rem;
+    }
+
+    .formationSuite p {  
+        font-size: 0.7rem;
+        padding: 5rem 3rem;
+    }
+}
+
+@include smallSmart {
+    .formation {
+        padding: 1rem 3rem;
+    }
+
+    .chronologie {
+        height: 805px;
+        margin-left: 0;
+    }
+
+    .dot:first-child {
+        margin-top: 5rem;
+    }
+
+    .dot {
+        margin: 18rem -0.4rem;
+    }
+
+    .block {
+        display: block;
+        width: 225px;
+        height: 285px;
+        left: 75px;
+    }
+
+    .logoFormation{
+        margin-bottom: 1rem;
+    }
+
+    .formationTitle {
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+    
+    .formationDescription {
+        font-size: 0.7rem;
+        font-weight: 300;
+        line-height: 1.3rem;
+    }
+
+    .formationSuite  {
+        margin-top: 7rem ;
+        margin-bottom: 5rem;
+    }
+
+    .formationSuite p {  
+        font-size: 0.7rem;
+        padding: 1rem 3rem;
+    } 
+}
+
+@include smartphones {
+    .formation {
+        display: block;
+        padding: 1rem 3rem;
+    }
+
+    .chronologie {
+        height: 805px;
+        margin-left: 0;
+    }
+
+    .dot:first-child {
+        margin-top: 5rem;
+    }
+
+    .dot {
+        margin: 18rem -0.4rem;
+    }
+
+    .block {
+        display: block;
+        width: 225px;
+        height: 285px;
+        left: 75px;
+    }
+
+    .logoFormation{
+        margin-bottom: 1rem;
+    }
+
+    .formationTitle {
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+    
+    .formationDescription {
+        font-size: 0.7rem;
+        font-weight: 300;
+        line-height: 1.3rem;
+    }
+
+    .formationSuite  {
+        margin-top: 3rem ;
+        margin-bottom: 5rem;
+    }
+
+    .formationSuite p {  
+        font-size: 0.7rem;
+        padding: 1rem 3rem;
+    }
+}
+
+@include tablets {
+    .block {
+        width: 400px;
+        height: 190px;
+    }
+
+    .formationTitle {
+        font-size: 0.8rem;
+    }
+
+    .formationDescription {
+        font-size: 0.7rem;
+    }
+
+    .formationSuite {
+        width: 125%;
+    }
+}
+
+@include desktop {
+
+}

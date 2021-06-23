@@ -131,7 +131,7 @@ li img {
     } 
 }
   
-  @include tablets {
+@include tablets {
     /* ILLUSTRATIONS -------------------------- */
 
     li img {
@@ -143,9 +143,9 @@ li img {
     .aknowledgment {
         display: none;
     }
-  }
+}
   
-  @include desktop {
+@include desktop {
     /* ILLUSTRATIONS -------------------------- */
 
     li img {
@@ -156,4 +156,4 @@ li img {
     .aknowledgment {
         display: none;
     }
-  }
+}

@@ -92,3 +92,68 @@ a {
     animation: step-start;
     animation: ease-in 2s;
 }
+
+/* RESPONSIVE WEBDESIGN */
+@include i5SE {
+    .contact { 
+        width: 100vw;
+    }
+
+    .contactButton {
+        width: 35%;
+        bottom: -6%;
+        left: 32%;
+    }
+
+    /* POP POP! -------------------------- */
+
+    .poppop {
+        width: 40%;
+    }
+}
+  
+@include smallSmart {
+    .contact { 
+        width: 100vw;
+    }
+
+    .contactButton {
+        width: 35%;
+        bottom: -6%;
+        left: 32%;
+    }
+
+    /* POP POP! -------------------------- */
+
+    .poppop {
+        width: 40%;
+    } 
+}
+  
+@include smartphones {
+    .contact { 
+        width: 100vw;
+    }
+
+    .contactButton {
+        width: 35%;
+        bottom: -6%;
+        left: 32%;
+    }
+
+    /* POP POP! -------------------------- */
+
+    .poppop {
+        width: 40%;
+    } 
+}
+
+@include tablets {
+    .contact {
+        width: 100vw;
+    }  
+}
+
+@include desktop {
+
+}

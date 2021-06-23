@@ -112,6 +112,10 @@ ul li {
     .logoPortfolio {
         width: 50%;
     }
+
+    .navList {
+        display: none;
+    }
 }
 
 @include smallSmart {
@@ -124,6 +128,10 @@ ul li {
         border-right:none;
 
         z-index: 3;
+    }
+
+    .navList {
+        display: none;
     }
     
 }
@@ -141,7 +149,7 @@ ul li {
     }
 
     .navigation {
-        /*display: none;*/
+        display: none;
     }
 
     .logo {

@@ -73,3 +73,97 @@
     bottom: -3%;
     left: 13%; 
 }
+
+/* RESPONSIVE WEBDESIGN */
+@include i5SE {
+    .projects {
+        margin-bottom: 5rem;
+    }
+
+    .projectsBlock {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projectsBlock div {
+        margin-bottom: 3rem;
+    }
+}
+  
+@include smallSmart {
+    .projects {
+        margin-bottom: 5rem;
+    }
+
+    .projectsBlock {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projectsBlock div {
+        margin-bottom: 3rem;
+    }
+}
+  
+@include smartphones {
+    .projects {
+        margin-bottom: 5rem;
+    }
+
+    .projectsBlock {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projectsBlock div {
+        margin-bottom: 3rem;
+    } 
+}
+
+@include tablets {
+    .projectsBlock {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 195px;
+        padding: 12rem 1rem 12rem 1rem;
+    }
+
+    .img {
+        width: 195px;
+    }
+
+    .cardTitle {
+        font-size: 1rem;
+    }
+
+    .cardDescription {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    } 
+}
+
+@include desktop {
+    .projectsBlock {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}

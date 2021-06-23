@@ -62,3 +62,163 @@
     text-align: center;
     margin: 1rem;
 }
+
+/* RESPONSIVE WEBDESIGN */
+@include i5SE {
+    .skills {
+        padding-bottom: 2rem;
+    }
+
+    .skillsBlock {
+        flex-direction: column;
+        padding: 2rem 3rem;
+    }
+
+    .skillsBlock div {
+        margin-bottom: 1rem;
+    }
+
+    .programmation {
+        width: 100%;
+    }
+    
+    .protypage {
+        width: 100%;
+        /*padding-left: 3rem;*/
+    }
+    
+    
+    .editor {
+        width: 100%;
+        text-align: left;
+        /*padding-left: 1rem;*/
+    }
+    
+    .environnement {
+        width: 100%;
+        /*padding-left: 1rem;*/
+    }
+}
+  
+@include smallSmart {
+    .skills {
+        padding-bottom: 2rem;
+    }
+
+    .skillsBlock {
+        flex-direction: column;
+        padding: 2rem 3rem;
+    }
+
+    .skillsBlock div {
+        margin-bottom: 1rem;
+    }
+
+    .programmation {
+        width: 100%;
+    }
+    
+    .protypage {
+        width: 100%;
+        /*padding-left: 3rem;*/
+    }
+    
+    
+    .editor {
+        width: 100%;
+        text-align: left;
+        /*padding-left: 1rem;*/
+    }
+    
+    .environnement {
+        width: 100%;
+        /*padding-left: 1rem;*/
+    }
+}
+  
+@include smartphones {
+    .skills {
+        padding-bottom: 2rem;
+    }
+
+    .skillsBlock {
+        flex-direction: column;
+        padding: 2rem 3rem;
+    }
+
+    .skillsBlock div {
+        margin-bottom: 1rem;
+    }
+
+    .programmation {
+        width: 100%;
+    }
+    
+    .protypage {
+        width: 100%;
+        /*padding-left: 3rem;*/
+    }
+    
+    
+    .editor {
+        width: 100%;
+        text-align: left;
+        /*padding-left: 1rem;*/
+    }
+    
+    .environnement {
+        width: 100%;
+        /*padding-left: 1rem;*/
+    } 
+}
+  
+@include tablets {
+    .skillsBlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 2rem 5rem;
+    
+    }
+
+    .programmation {
+        width: 45%;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .protypage {
+        width: 45%;
+    }
+
+    .environnement {
+        width: 22%;
+        text-align: center;
+        margin-right: 2rem;
+    }
+
+    .editor {
+        width: 10%;
+        text-align: center;
+    }
+
+    .skillSquare {
+        height: 3rem;
+        width: 3rem;
+    }
+}
+  
+@include desktop {
+    .skillSquare {   
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .programmation {
+        width: 39%;
+    }
+
+    .protypage {
+        width: 27%;
+    }
+}
