@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import {Switch, NavLink, Link } from 'react-router-dom';
 
 const Menu = () => {
   return (
@@ -18,12 +18,16 @@ const Menu = () => {
       </div>
       <nav class="navigation">
         <ul class="navList">
-          <Link to="/"><li class="navItem" ><a href="#top">&#9612; Home</a></li></Link>
+          <Switch>
+          <Link to="/home"><li class="navItem" ><a href="#top">&#9612; Home</a></li></Link>
+
           <li class="navItem" id="apropos" ><Link to="/apropos"><a href="#propos">À propos</a></Link></li>
-          <li class="navItem" id="tech"><a href="#techniques">Compétences techniques</a></li>
-          <li class="navItem" id="projects"><a href="#projets"> Projets</a></li>
-          <li class="navItem" id="studies"><a href="#formation"> Formation</a></li>
-          <li class="navItem" id="contactme"><a href="#contact"> Contact</a></li>
+
+          <li class="navItem" id="tech"><Link to="/skills"><a href="#techniques">Compétences techniques</a></Link></li>
+          <li class="navItem" id="projects"><Link to="/projects"><a href="#projets"> Projets</a></Link></li>
+          <li class="navItem" id="studies"><Link to="/formation"><a href="#formation"> Formation</a></Link></li>
+          <li class="navItem" id="contactme"><Link to="/contact"><a href="#contact"> Contact</a></Link></li>
+          </Switch>
         </ul>
       </nav>
     </header>      
