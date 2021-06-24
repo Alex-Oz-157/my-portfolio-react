@@ -63,6 +63,16 @@
     margin: 1rem;
 }
 
+.notaBene {
+    padding: 1rem 5rem;
+    text-align: left;
+}
+
+.goGithub {
+    font-weight: 500;
+    color: #E63331;
+}
+
 /* RESPONSIVE WEBDESIGN */
 @include i5SE {
     .skills {
@@ -97,6 +107,11 @@
     .environnement {
         width: 100%;
         /*padding-left: 1rem;*/
+    }
+
+    .notaBene {
+        padding: 1rem 1rem;
+        text-align: left;
     }
 }
   
@@ -134,6 +149,11 @@
         width: 100%;
         /*padding-left: 1rem;*/
     }
+
+    .notaBene {
+        padding: 1rem 1rem;
+        text-align: left;
+    }
 }
   
 @include smartphones {
@@ -169,6 +189,11 @@
     .environnement {
         width: 100%;
         /*padding-left: 1rem;*/
+    }
+
+    .notaBene {
+        padding: 1rem 1rem;
+        text-align: left;
     } 
 }
   
@@ -206,6 +231,11 @@
         height: 3rem;
         width: 3rem;
     }
+
+    .notaBene {
+        padding: 1rem 2rem;
+        text-align: left;
+    } 
 }
   
 @include desktop {

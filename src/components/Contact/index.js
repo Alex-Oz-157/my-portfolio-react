@@ -12,7 +12,9 @@ const Contact = () => {
       <section className="contact" id="contact">
         <h2 className="title" >&#9612; contact</h2>
         <p className="cardDescription">
-          Nunc bibendum dui ac arcu molestie mollis sit amet sed urna. Quisque ultricies, enim vulputate suscipit egestas, justo sem iaculis lorem, et tristique lorem ex eget nisl.
+          Toujours convaincu que l'on a toujours quelque chose à apprendre d'un rendez-vous de travail,<br/>
+          je serai ravi de pouvoir échanger avec vous. <br/><br/>
+          Retrouvez mes différents travaux ci-dessous et n'hésitez pas à me contacter !
         </p>
         <div className="iconLinks">
           <a href="https://www.linkedin.com/in/alexandre-maspimby/" target="_blank" rel="noreferrer">
@@ -31,7 +33,7 @@ const Contact = () => {
             <img src={flickr} alt="online gallery"/>
           </a>  
         </div>
-        <button className="contactButton">Stay tuned</button>
+        <button className="contactButton"><a href="mailto:maspimbya@gmail.com?Subject=Stay%tuned" target="_blank">Stay tuned</a></button>
       </section>
       <a href="#top"><button className="poppop">Pop Pop!</button></a>
       </>

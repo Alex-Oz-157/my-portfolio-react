@@ -14,9 +14,11 @@ const Projects = () => {
 
             <div className="card">
               <div className="img"></div>
-              <h4 className="cardTitle">Nom du projet</h4>
+              <h4 className="cardTitle">Room homepage</h4>
               <p className="cardDescription">
-                Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
+                Exercice de réalisation d'un site statique en HTML, CSS et JS.
+                <br/><br/> 
+                Le brief est hérité du la plateforme pour développeur Frontend Mentor
               </p>
               <button 
                 className="cardButton" 
@@ -29,9 +31,11 @@ const Projects = () => {
             
             <div className="card">
               <div className="img"></div>
-              <h4 className="cardTitle">Nom du projet</h4>
+              <h4 className="cardTitle">Landing page</h4>
               <p className="cardDescription">
-                Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
+                Projet personnel de landing page construite de A à Z 
+                <br/><br/>
+                La page est entièrement responsive design et réalisé en HTML, CSS et JS.
               </p>
               <button 
                 className="cardButton" 
@@ -44,9 +48,11 @@ const Projects = () => {
 
             <div className="card">
               <div className="img"></div>
-              <h4 className="cardTitle">Nom du projet</h4>
+              <h4 className="cardTitle">Shuffler</h4>
               <p className="cardDescription">
-                Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
+                Shuffler un mini player audio imaginé dans le but de mettre en application React et SASS. 
+                <br/><br/>
+                Le projet en amont utilisait HTML, CSS et JS.
               </p>
               <button 
                 className="cardButton" 
