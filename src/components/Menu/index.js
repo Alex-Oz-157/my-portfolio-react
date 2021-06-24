@@ -1,6 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 
 const Menu = () => {
+
+  const [showMenu, setMenu] = useState(false);
+
+	const handleShowMenu = () => {
+		setMenu(!showMenu)
+	};
+
   return (
     <header>
       <a href="#top">
@@ -11,11 +19,11 @@ const Menu = () => {
       </a>
       <div className="separator"></div>
       <div className="nav-responsive">
-        <div className="nav-toggle">
+        <div className="nav-toggle" onClick={handleShowMenu}>
           <div className="nav-toggle-bar"></div>
         </div>
       </div>
-      <nav className="navigation">
+      <nav className={`navigation ${showMenu ? "expanded" : " " }`}>
         <ul className="navList">
           <li className="navItem" ><a href="#top">&#9612; Home</a></li>
           <li className="navItem" id="apropos" ><a href="#propos">À propos</a></li>
