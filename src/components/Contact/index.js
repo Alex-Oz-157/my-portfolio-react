@@ -9,12 +9,12 @@ const Contact = () => {
 
     return (
       <>
-      <section class="contact" id="contact">
-        <h2 class="title" >&#9612; contact</h2>
-        <p class="cardDescription">
+      <section className="contact" id="contact">
+        <h2 className="title" >&#9612; contact</h2>
+        <p className="cardDescription">
           Nunc bibendum dui ac arcu molestie mollis sit amet sed urna. Quisque ultricies, enim vulputate suscipit egestas, justo sem iaculis lorem, et tristique lorem ex eget nisl.
         </p>
-        <div class="iconLinks">
+        <div className="iconLinks">
           <a href="https://www.linkedin.com/in/alexandre-maspimby/" target="_blank" rel="noreferrer">
             <img src={linkedin} alt="linkedin profile"/>
           </a> 
@@ -31,9 +31,9 @@ const Contact = () => {
             <img src={flickr} alt="online gallery"/>
           </a>  
         </div>
-        <button class="contactButton">Stay tuned</button>
+        <button className="contactButton">Stay tuned</button>
       </section>
-      <a href="#top"><button class="poppop">Pop Pop!</button></a>
+      <a href="#top"><button className="poppop">Pop Pop!</button></a>
       </>
     );
 }

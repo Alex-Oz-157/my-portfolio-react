@@ -1,37 +1,49 @@
 import React from 'react';
+import { useState } from 'react';
+import Modal from '../Modal';
 
 const Projects = () => {
+
+    // const [showModal, setShowModal] = useState(false);
+
+    // const handleShowModal = () => {
+    //   setShowModal(!showModal)
+    // };
+
+    // const closeModalHandler = () => setShowModal(false);
+
+
     return (
       <>
-        <h2 class="title" id="projets">&#9612; Projets</h2>
-        <section class="projects">
-          <div class="projectsBlock">
+        <h2 className="title" id="projets">&#9612; Projets</h2>
+        <section className="projects">
+          <div className="projectsBlock">
 
-            <div class="card">
-              <div class="img"></div>
-              <h4 class="cardTitle">Nom du projet</h4>
-              <p class="cardDescription">
+            <div className="card">
+              <div className="img"></div>
+              <h4 className="cardTitle">Nom du projet</h4>
+              <p className="cardDescription">
                 Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
               </p>
-              <button class="cardButton" id="button">Découvrir</button>
+              <button className="cardButton" id="button">Découvrir</button>
+            </div>
+            
+            <div className="card">
+              <div className="img"></div>
+              <h4 className="cardTitle">Nom du projet</h4>
+              <p className="cardDescription">
+                Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
+              </p>
+              <button className="cardButton" id="button">Découvrir</button>
             </div>
 
-            <div class="card">
-              <div class="img"></div>
-              <h4 class="cardTitle">Nom du projet</h4>
-              <p class="cardDescription">
+            <div className="card">
+              <div className="img"></div>
+              <h4 className="cardTitle">Nom du projet</h4>
+              <p className="cardDescription">
                 Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
               </p>
-              <button class="cardButton" id="button">Découvrir</button>
-            </div>
-
-            <div class="card">
-              <div class="img"></div>
-              <h4 class="cardTitle">Nom du projet</h4>
-              <p class="cardDescription">
-                Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
-              </p>
-              <button class="cardButton" id="button">Découvrir</button>
+              <button className="cardButton" id="button">Découvrir</button>
             </div>
           </div>
         </section>

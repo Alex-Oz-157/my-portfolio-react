@@ -15,65 +15,65 @@ import vscode from '../../assets/pictos/vs_code.svg';
 
 const Skills = () => {
     return (
-      <section class="skills" id="techniques">
-        <h2 class="title">&#9612; Compétences Techniques</h2>
-        <div class="skillsBlock">
+      <section className="skills" id="techniques">
+        <h2 className="title">&#9612; Compétences Techniques</h2>
+        <div className="skillsBlock">
 
-          <div class="programmation">
-            <h3 class="subtitle">Programmation</h3>
-            <ul class="blockSetup">
-              <li class="skillSquare">
+          <div className="programmation">
+            <h3 className="subtitle">Programmation</h3>
+            <ul className="blockSetup">
+              <li className="skillSquare">
                 <img src={html5} alt="HTML 5"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={css3} alt="CSS 3"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={js} alt="Javascript Js"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={sass} alt="Sass"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={react} alt="React"/>
               </li>
             </ul>
           </div>
 
-          <div class="protypage">
-            <h3 class="subtitle">Protypage</h3>
-            <ul class="blockSetup">
-              <li class="skillSquare">
+          <div className="protypage">
+            <h3 className="subtitle">Protypage</h3>
+            <ul className="blockSetup">
+              <li className="skillSquare">
                 <img src={figma} alt="Figma"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={adobe} alt="adobe XD"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={sketch} alt="Sketch"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={invision} alt="InVision"/>
               </li>
             </ul>
           </div>
 
-          <div class="environnement">
-            <h3 class="subtitle">Environnement</h3>
-            <ul class="blockSetup">
-              <li class="skillSquare">
+          <div className="environnement">
+            <h3 className="subtitle">Environnement</h3>
+            <ul className="blockSetup">
+              <li className="skillSquare">
                 <img src={git} alt="Git"/>
               </li>
-              <li class="skillSquare">
+              <li className="skillSquare">
                 <img src={github} alt="GitHub"/>
               </li>
             </ul>
           </div>
 
-        <div class="editor">
-          <h3 class="subtitle">Editeur</h3>
-          <ul class="blockSetup">
-            <li class="skillSquare">
+        <div className="editor">
+          <h3 className="subtitle">Editeur</h3>
+          <ul className="blockSetup">
+            <li className="skillSquare">
               <img src={vscode} alt="Visual Studio Code"/>
             </li>
           </ul>
