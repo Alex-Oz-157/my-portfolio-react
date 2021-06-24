@@ -1,13 +1,16 @@
 import React from 'react';
 
-const Modal = ({ handleShowModal, closeModalHandler }) => {
+const Modal = ({ closeModal }) => {
 
   return (
     <>
-    {handleShowModal ? (
     <aside className="modalProject" id="modal">
       <div className="modalContent">
-        <button className="close" onClick={(closeModalHandler)}>&#x292C;</button>
+        <div className="close" 
+          onClick={() => 
+          closeModal(false)
+          }>&#x292C;
+        </div>
         <div className="modalIllustration"></div>
         <h4 className="modalTitle">Nom du Projet</h4>
         <p className="modalDescription">
@@ -17,7 +20,6 @@ const Modal = ({ handleShowModal, closeModalHandler }) => {
         </p>
       </div>
     </aside>
-    ) : null}
     </>
   );
 }

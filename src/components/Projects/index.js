@@ -4,14 +4,7 @@ import Modal from '../Modal';
 
 const Projects = () => {
 
-    // const [showModal, setShowModal] = useState(false);
-
-    // const handleShowModal = () => {
-    //   setShowModal(!showModal)
-    // };
-
-    // const closeModalHandler = () => setShowModal(false);
-
+  const [openModal, setOpenModal] = useState(false);
 
     return (
       <>
@@ -25,7 +18,13 @@ const Projects = () => {
               <p className="cardDescription">
                 Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
               </p>
-              <button className="cardButton" id="button">Découvrir</button>
+              <button 
+                className="cardButton" 
+                onClick={() => {
+                  setOpenModal(true);
+                }}>Découvrir
+              </button>
+              {openModal && <Modal closeModal={setOpenModal}/>}
             </div>
             
             <div className="card">
@@ -34,7 +33,13 @@ const Projects = () => {
               <p className="cardDescription">
                 Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
               </p>
-              <button className="cardButton" id="button">Découvrir</button>
+              <button 
+                className="cardButton" 
+                onClick={() => {
+                  setOpenModal(true);
+                }}>Découvrir
+              </button>
+              {openModal && <Modal closeModal={setOpenModal}/>}
             </div>
 
             <div className="card">
@@ -43,8 +48,15 @@ const Projects = () => {
               <p className="cardDescription">
                 Donec non magna nec ante gravida hendrerit. Phasellus diam neque, posuere id lacus vitae, imperdiet ornare sapien.
               </p>
-              <button className="cardButton" id="button">Découvrir</button>
+              <button 
+                className="cardButton" 
+                onClick={() => {
+                  setOpenModal(true);
+                }}>Découvrir
+              </button>
+              {openModal && <Modal closeModal={setOpenModal}/>}
             </div>
+
           </div>
         </section>
       </>

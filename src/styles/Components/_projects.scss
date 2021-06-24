@@ -24,9 +24,9 @@
 
 }
 
-.card:hover {
-    transform: scale(1.1);
-}
+// .card:hover {
+//     transform: scale(1.1);
+// }
 
 .img {
     width: 255px;
@@ -92,6 +92,10 @@
     .projectsBlock div {
         margin-bottom: 3rem;
     }
+
+    .modalIllustration {
+        height: 140px;
+    }
 }
   
 @include smallSmart {
@@ -111,6 +115,10 @@
     .projectsBlock div {
         margin-bottom: 3rem;
     }
+
+    .modalIllustration {
+        height: 200px;
+    }
 }
   
 @include smartphones {
@@ -129,7 +137,11 @@
 
     .projectsBlock div {
         margin-bottom: 3rem;
-    } 
+    }
+    
+    .modalIllustration {
+        height: 200px;
+    }
 }
 
 @include tablets {
