@@ -9,6 +9,8 @@ import Formation from '../Formation';
 import Contact from '../Contact';
 import Footer from '../Footer';
 
+import cardsData from '../../data/cards';
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +19,7 @@ function App() {
         <Greetings />
         <About />
         <Skills />
-        <Projects />
+        <Projects cards={cardsData}/>
         <Formation />
         <Contact />
       </main>

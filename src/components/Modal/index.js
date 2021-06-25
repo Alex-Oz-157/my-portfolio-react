@@ -1,5 +1,7 @@
 import React from 'react';
 
+import room from '../../assets/img/room_homepage.png';
+
 const Modal = ({ closeModal }) => {
 
   return (
@@ -11,7 +13,7 @@ const Modal = ({ closeModal }) => {
           closeModal(false)
           }>&#x292C;
         </div>
-        <div className="modalIllustration"></div>
+        <img className="modalIllustration" src={room}></img>
         <h4 className="modalTitle">Nom du Projet</h4>
         <p className="modalDescription">
           Donec non sollicitudin ante. Curabitur rhoncus nunc sed ex placerat, eu suscipit ante placerat. Sed non lectus tincidunt purus auctor mollis. Suspendisse potenti. Donec non bibendum tellus. Quisque tempus urna finibus, scelerisque justo eget, accumsan arcu. Aliquam venenatis libero in mauris egestas, a bibendum ligula eleifend. 
