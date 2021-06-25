@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import Modals from '../Modals';
 
-import modalsData from '../../data/modals';
+import cardsData from '../../data/cards';
 
 
 const Project = ({ img, title, description }) => {
@@ -23,7 +23,7 @@ const Project = ({ img, title, description }) => {
           setOpenModal(true);
         }}>Découvrir
       </button>
-      {openModal && <Modals modals={modalsData} closeModal={setOpenModal}/>}
+      {openModal && <Modals cards={cardsData} closeModal={setOpenModal}/>}
     </div>
   ); 
 };
