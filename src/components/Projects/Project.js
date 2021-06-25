@@ -1,7 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 
-import Modal from '../Modal';
+import Modals from '../Modals';
+
+import modalsData from '../../data/modals';
+
 
 const Project = ({ img, title, description }) => {
 
@@ -9,7 +12,7 @@ const Project = ({ img, title, description }) => {
 
   return (
     <div className="card">
-      <img className="img" src={img}></img>
+      <img className="img" src={img} alt="project illustration"></img>
       <h4 className="cardTitle">{title}</h4>
       <p className="cardDescription">
         {description}
@@ -20,7 +23,7 @@ const Project = ({ img, title, description }) => {
           setOpenModal(true);
         }}>Découvrir
       </button>
-      {openModal && <Modal closeModal={setOpenModal}/>}
+      {openModal && <Modals modals={modalsData} closeModal={setOpenModal}/>}
     </div>
   ); 
 };
