@@ -33,7 +33,7 @@ const Contact = () => {
             <img src={flickr} alt="online gallery"/>
           </a>  
         </div>
-        <button className="contactButton"><a href="mailto:maspimbya@gmail.com?Subject=Stay%tuned" target="_blank">Stay tuned</a></button>
+        <button className="contactButton"><a href="mailto:maspimbya@gmail.com?Subject=Stay%tuned" target="_blank" rel="noreferrer">Stay tuned</a></button>
       </section>
       <a href="#top"><button className="poppop">Pop Pop!</button></a>
       </>
