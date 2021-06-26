@@ -10,7 +10,7 @@
 .chronologie {
     height: 720px;
     width: 8px;
-    background-color: #003466;
+    background-color: $deep-blue;
     border-radius: 10px;
     margin-left: 3rem;
 }
@@ -23,7 +23,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #003466;
+    background-color: $deep-blue;
     margin: 13rem  -0.4rem;
     position: relative;
 }
@@ -33,7 +33,7 @@
 .block {
     width: 430px;
     height: 190px;
-    background-color: #003466;
+    background-color: $deep-blue;
     display: flex;
     padding:1.5rem;
     
@@ -46,7 +46,7 @@
     width: 0;
     height: 0;
     border-top: 40px solid transparent;
-    border-right: 40px solid #003466;
+    border-right: 40px solid $deep-blue;
     border-bottom: 20px solid transparent;
     
     position: absolute;
@@ -65,19 +65,19 @@
 }
 
 .formationTitle {
-    color: #fff;
+    color: $white;
 
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: $semi;
     line-height: 1.3rem;
 
 }
 
 .formationDescription {
-    color: #fff;
+    color: $white;
 
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: $light;
     line-height: 1.3rem;
 }
 
@@ -90,7 +90,7 @@
     color: #626060;
 
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: $light;
     line-height: 1.3rem;
 
     padding: 1rem 16rem;
@@ -102,7 +102,7 @@
     color: #626060;
 
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: $semi;
     line-height: 1.3rem;
 }
 
@@ -126,7 +126,7 @@
     }
 
     .triangle {
-        border-right: 30px solid #003466;
+        border-right: 30px solid $deep-blue;
         left: -15px;
     }
 
@@ -145,13 +145,13 @@
 
     .formationTitle {
         font-size: 0.8rem;
-        font-weight: 500;
+        font-weight: $semi;
         line-height: 1.3rem;
     }
     
     .formationDescription {
         font-size: 0.7rem;
-        font-weight: 300;
+        font-weight: $light;
         line-height: 1.3rem;
     }
 
@@ -197,13 +197,13 @@
 
     .formationTitle {
         font-size: 0.8rem;
-        font-weight: 500;
+        font-weight: $semi;
         line-height: 1.3rem;
     }
     
     .formationDescription {
         font-size: 0.7rem;
-        font-weight: 300;
+        font-weight: $light;
         line-height: 1.3rem;
     }
 
@@ -250,13 +250,13 @@
 
     .formationTitle {
         font-size: 0.8rem;
-        font-weight: 500;
+        font-weight: $semi;
         line-height: 1.3rem;
     }
     
     .formationDescription {
         font-size: 0.7rem;
-        font-weight: 300;
+        font-weight: $light;
         line-height: 1.3rem;
     }
 

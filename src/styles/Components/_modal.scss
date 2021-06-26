@@ -14,7 +14,7 @@
     background-color: #fff;
     margin: 0% auto; 
     padding: 2rem;
-    border: 1px solid #003466;
+    border: 1px solid $deep-blue;
     width: 80%;
 }
 
@@ -29,33 +29,33 @@
   
 .close:hover,
 .close:focus {
-    color: #003466;
+    color: $deep-blue;
     text-decoration: none;
     cursor: pointer;
 }
 
 .modalIllustration {
     height: 500px;
-    background-color: #E63331;
+    background-color: $red-vibrato;
     margin: 2rem auto;
 }
 
 .modalTitle {
-    color: #003466;
+    color: $deep-blue;
 
     font-size: 1.2rem;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-weight: $semi;
+    letter-spacing: $standard;
     line-height: 1.3rem;
     padding-bottom: 1rem;    
 }
 
 .modalDescription {
-    color: #003466;
+    color: $deep-blue;
 
     font-size: 0.8rem;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: $light;
+    letter-spacing: $standard;
     line-height: 1.3rem;
     padding-bottom: 1rem;    
 
@@ -64,10 +64,10 @@
 
 .seeProject {
     padding: 1rem;
-    background-color: #003466;
+    background-color: $deep-blue;
     color: #fff;
-    font-weight: 500;
+    font-weight: $semi;
     border: none;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: $standard;
 }

@@ -2,7 +2,7 @@
 
 .contact {
     width: 845px;
-    background-color: #E63331;
+    background-color: $red-vibrato;
     text-align: center;
     padding: 1rem 3rem;
     margin: 1rem auto 3rem;
@@ -11,9 +11,9 @@
 }
 
 .contact .title {
-    color: #fff;
+    color: $white;
     padding: 1rem 0;
-    font-weight: 700;
+    font-weight: $bold;
     text-align: center;
 }
 
@@ -21,12 +21,12 @@
     width: 25%;
     height: 28px;
     padding: 0.3rem;
-    background-color: #003466;
-    color: #fff;
+    background-color: $deep-blue;
+    color: $white;
     border: none;
 
     font-size: 0.7rem;
-    font-weight: 300;
+    font-weight: $light;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: absolute;
@@ -68,12 +68,12 @@
     height: 28px;
     padding: 0.3rem;
     margin: 2rem 0;
-    background-color: #E63331;
-    color: #fff;
+    background-color: $red-vibrato;
+    color: $white;
     border: none;
 
     font-size: 0.7rem;
-    font-weight: 700;
+    font-weight: $bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;

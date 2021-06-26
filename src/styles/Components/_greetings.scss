@@ -7,8 +7,8 @@
     margin-bottom: 7rem;
 
     height: 850px;
-    border-bottom: 5px solid #003466;
-    background-color: #E63331;
+    border-bottom: 5px solid $deep-blue;
+    background-color: $red-vibrato;
     background-image: url("../../assets/img/irlande_portrait3.png"),  
     url("../../assets/img/dot-grid.png") ;
     background-origin: border-box;
@@ -21,10 +21,10 @@
 }
 
 .welcome {
-    color:  #fff;
+    color:  $white;
 
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: $light;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-top: 5rem;
@@ -32,17 +32,13 @@
 }
 
 .who {
-    color: #003466;
+    color: $deep-blue;
 
     font-size: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: $light;
+    letter-spacing: $standard;
     line-height: 2rem;
 }
-
-/*strong:first-child {
-    margin-top: 8rem;
-}*/
 
 strong {
     display: flex;
@@ -51,23 +47,23 @@ strong {
     text-align: left;
     padding:1rem;
     margin-top: 3rem;
-    background-color: #fff;
+    background-color: $white;
 }
 
 
 .quote__1{
-    color: #003466;
+    color: $deep-blue;
     font-size: 1.3rem;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: $light;
+    letter-spacing: $standard;
     width: 17.5rem;
 }
 
 .quote__2{
-    color: #003466;
+    color: $deep-blue;
     font-size: 1.3rem;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: $light;
+    letter-spacing: $standard;
     width: 28rem;
 }
 
@@ -76,7 +72,7 @@ strong {
 
     display: flex;
     align-items: center;
-    border: 1px solid #fff;
+    border: 1px solid $white;
     margin-top: 4rem;
     padding: 0.8rem;
 
@@ -92,13 +88,13 @@ strong {
 }
 
 .resume p {
-    color: #fff;
+    color: $white;
     text-decoration: underline;
 }
 
 
 .resume p:hover {
-    color : #003466;
+    color : $deep-blue;
     cursor: pointer;
 }
 

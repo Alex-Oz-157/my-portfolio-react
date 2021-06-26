@@ -1,4 +1,4 @@
-export default [
+const cards = [
   {
     id: 1,
     img:'../../assets/img/room_homepage.png',
@@ -7,7 +7,7 @@ export default [
     
     illustration:'../../assets/img/room_homepage.png',
     descriptionFull:"1 Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor", 
-    link:'https://github.com/Alex-Oz-157/my-portfolio-react',
+    link:'https://github.com/Alex-Oz-157/my-portfolio',
   },
 
   {
@@ -17,7 +17,7 @@ export default [
     description:'Projet personnel de landing page construite de A à Z. La page est entièrement responsive design et réalisé en HTML, CSS et JS.',      
   
     illustration:'../../assets/img/room_homepage.png',
-    descriptionFull:"1 Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor", 
+    descriptionFull:"2 Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor", 
     link:'https://github.com/Alex-Oz-157/my-portfolio-react',
   },
 
@@ -28,8 +28,10 @@ export default [
     description:'Shuffler un mini player audio imaginé dans le but de mettre en application React et SASS. Le projet en amont utilisait HTML, CSS et JS.',  
     
     illustration:'../../assets/img/room_homepage.png',
-    descriptionFull:"1 Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor", 
-    link:'https://github.com/Alex-Oz-157/my-portfolio-react',
+    descriptionFull:"2 Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor", 
+    link:'https://github.com/Alex-Oz-157/shuffler',
   },
 
 ];
+
+export default cards;

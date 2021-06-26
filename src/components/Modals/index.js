@@ -1,26 +1,23 @@
 import React from 'react';
 
-//import Modal from '../../components/Modals';
-import cardsData from '../../data/cards';
-
-const Modals = ({ cards, closeModal, title,   }) => {
+const Modals = ({ modals, closeModal }) => {
 
   return (
     <>
-      {cards.map((card) => (
-        <aside className="modalProject" >
+      {modals.map((modal) => (
+        <aside className="modalProject" key={modal.id} >
           <div className="modalContent" >
             <div className="close" 
               onClick={() => 
               closeModal(false)
               }>&#x292C;
             </div>
-            <img className="modalIllustration" src={card.illustration} alt={card.title}></img>
-            <h4 className="modalTitle">{card.title}</h4>
+            <img className="modalIllustration" src={modal.illustrationModal} alt={modal.titleModal}></img>
+            <h4 className="modalTitle">{modal.titleModal}</h4>
             <p className="modalDescription">
-              {card.descriptionFull} 
+              {modal.descriptionModal} 
             </p>
-            <a href={card.link} target="_blank" rel="noreferrer"><button className="seeProject">Voir le projet</button></a>
+            <a href={modal.link} target="_blank" rel="noreferrer"><button className="seeProject">Voir le projet</button></a>
           </div>
         </aside>
       ))}
