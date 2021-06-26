@@ -1,7 +1,7 @@
 const cards = [
   {
     id: 1,
-    img:'../../assets/img/room_homepage.png',
+    img: '../../assets/img/room_homepage.png',
     title:'Room homepage',
     description:"Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor",      
     

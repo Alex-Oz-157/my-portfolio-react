@@ -11,7 +11,7 @@ const Project = ({ img, title, description }) => {
 
   return (
     <div className="card">
-      <img className="img" src={img} alt="project illustration"></img>
+      <img className="img" src={img} alt={title}></img>
       <h4 className="cardTitle">{title}</h4>
       <p className="cardDescription">
         {description}
