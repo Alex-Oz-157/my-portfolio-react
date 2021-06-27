@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Modals from '../Modals';
 
 import modalsData from '../../data/modals';
+import modals from '../../data/modals';
 
 const Project = ({ img, title, description }) => {
 
@@ -26,6 +27,13 @@ const Project = ({ img, title, description }) => {
         modals={modalsData} 
         closeModal={setOpenModal}
       />}
+      {modals.includes((modal) => (
+        <Modals
+        key={modal.id}
+        titleModal={modal.titleModal}
+        descriptionModal={modal.descriptionModal}
+        link={modal.link} />
+      ))}
     </div>
   ); 
 };
