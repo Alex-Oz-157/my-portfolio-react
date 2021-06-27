@@ -29,10 +29,11 @@ const Project = ({ img, title, description }) => {
       />}
       {modals.includes((modal) => (
         <Modals
-        key={modal.id}
-        titleModal={modal.titleModal}
-        descriptionModal={modal.descriptionModal}
-        link={modal.link} />
+        key={modal.id === 'id'}
+        // titleModal={modal.titleModal}
+        // descriptionModal={modal.descriptionModal}
+        // link={modal.link} 
+        />
       ))}
     </div>
   ); 

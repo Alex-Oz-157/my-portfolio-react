@@ -1,5 +1,4 @@
 import React from 'react';
-import modals from '../../data/modals';
 
 const Modals = ({ id, illustrationModal, titleModal, descriptionModal, link, closeModal }) => {
 
