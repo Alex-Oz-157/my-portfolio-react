@@ -3,8 +3,7 @@ import { useState } from 'react';
 
 import Modals from '../Modals';
 
-import modalsData from '../../data/modals';
-import modals from '../../data/modals';
+import cardsData from '../../data/cards';
 
 const Project = ({ img, title, description }) => {
 
@@ -24,17 +23,17 @@ const Project = ({ img, title, description }) => {
         }}>Découvrir
       </button>
       {openModal && <Modals 
-        modals={modalsData} 
+        cards={cardsData} 
         closeModal={setOpenModal}
       />}
-      {modals.includes((modal) => (
+      {/* {modals.includes((modal) => (
         <Modals
         key={modal.id === 'id'}
         // titleModal={modal.titleModal}
         // descriptionModal={modal.descriptionModal}
         // link={modal.link} 
         />
-      ))}
+      ))} */}
     </div>
   ); 
 };

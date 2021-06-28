@@ -1,43 +1,53 @@
 import React from 'react';
 
-const Modals = ({ id, illustrationModal, titleModal, descriptionModal, link, closeModal }) => {
 
+const Modals = ({ cards, modals, modal, illustrationModal, title, descriptionModal, link, closeModal }) => {
   return (
     <>
+          {/* {cards.map((card) => (
+              <Modal 
+                key={card.id} 
+                illustrationModal={card.illustrationModal} 
+                title={card.title} 
+                descriptionModal={card.descriptionModal}
+                link={card.link} />
+          ))} */}
 
-        <aside className="modalProject" key={id} >
-          <div className="modalContent" >
+        {/* <aside className="modalProject" >
+          <div className="modalContent" key={modal} >
             <div className="close" 
               onClick={() => 
               closeModal(false)
               }>&#x292C;
             </div>
-            <img className="modalIllustration" src={illustrationModal} alt={titleModal}></img>
-            <h4 className="modalTitle">{titleModal}</h4>
+            <img className="modalIllustration" src={illustrationModal} alt={title}></img>
+            <h4 className="modalTitle">{title}</h4>
             <p className="modalDescription">
               {descriptionModal} 
             </p>
             <a href={link} target="_blank" rel="noreferrer"><button className="seeProject">Voir le projet</button></a>
           </div>
-        </aside>
+        </aside> */}
 
-      {/* {modals.map((modal) => (
-        <aside className="modalProject" key={modal.id} >
-          <div className="modalContent" >
+
+        <aside className="modalProject"  >
+        {cards.map((card) => (
+          <div className="modalContent" key={card.modal}>
             <div className="close" 
               onClick={() => 
               closeModal(false)
               }>&#x292C;
             </div>
-            <img className="modalIllustration" src={modal.illustrationModal} alt={modal.titleModal}></img>
-            <h4 className="modalTitle">{modal.titleModal}</h4>
+            <img className="modalIllustration" src={card.illustrationModal} alt={card.title}></img>
+            <h4 className="modalTitle">{card.title}</h4>
             <p className="modalDescription">
-              {modal.descriptionModal} 
+              {card.descriptionModal} 
             </p>
-            <a href={modal.link} target="_blank" rel="noreferrer"><button className="seeProject">Voir le projet</button></a>
+            <a href={card.link} target="_blank" rel="noreferrer"><button className="seeProject">Voir le projet</button></a>
           </div>
+        ))}
         </aside>
-      ))} */}
+
     </>
   );
 }
