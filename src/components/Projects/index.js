@@ -14,7 +14,8 @@ const Projects = ({ cards }) => {
                 key={card.id} 
                 img={card.img} 
                 title={card.title} 
-                description={card.description} />
+                description={card.description}
+                link={card.link} />
             ))}
           </div>
         </section>
