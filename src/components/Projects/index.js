@@ -1,6 +1,11 @@
 import React from 'react';
 
 import Project from './Project';
+import test from '../../assets/img/room_homepage.png';
+import test1 from '../../assets/img/landing.png';
+import test2 from '../../assets/img/landing.png';
+
+
 
 const Projects = ({ cards }) => {
 
@@ -17,6 +22,9 @@ const Projects = ({ cards }) => {
                 description={card.description}
                 link={card.link} />
             ))}
+            <img className="imgTest" src={test} alt="blabla"></img>
+            <img className="imgTest2" src={test1} alt="blabla"></img>
+            <img className="imgTest3" src={test2} alt="blabla"></img>
           </div>
         </section>
       </>

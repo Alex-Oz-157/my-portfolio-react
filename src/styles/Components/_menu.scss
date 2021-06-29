@@ -208,9 +208,9 @@ ul li {
         
         .nav-toggle .nav-toggle-bar { margin-top: 0; }
         
-        .nav-toggle .nav-toggle-bar::after { margin-top: 0.6rem; }
+        .nav-toggle .nav-toggle-bar::after { margin-top: 0.6rem; left:0 }
         
-        .nav-toggle .nav-toggle-bar::before { margin-top: -0.5rem; }
+        .nav-toggle .nav-toggle-bar::before { margin-top: -0.5rem; left:0}
         
         .nav-toggle.expanded .nav-toggle-bar { background: transparent;         z-index: 2;
         }
@@ -356,9 +356,9 @@ ul li {
         
         .nav-toggle .nav-toggle-bar { margin-top: 0; }
         
-        .nav-toggle .nav-toggle-bar::after { margin-top: 0.6rem; }
+        .nav-toggle .nav-toggle-bar::after { margin-top: 0.6rem; left: 0;}
         
-        .nav-toggle .nav-toggle-bar::before { margin-top: -0.5rem; }
+        .nav-toggle .nav-toggle-bar::before { margin-top: -0.5rem; left:0;}
         
         .nav-toggle.expanded .nav-toggle-bar { background: transparent;         z-index: 2;
         }
@@ -532,9 +532,9 @@ ul li {
         
         .nav-toggle .nav-toggle-bar { margin-top: 0; }
         
-        .nav-toggle .nav-toggle-bar::after { margin-top: 0.6rem; }
+        .nav-toggle .nav-toggle-bar::after { margin-top: 0.6rem; left:0}
         
-        .nav-toggle .nav-toggle-bar::before { margin-top: -0.5rem; }
+        .nav-toggle .nav-toggle-bar::before { margin-top: -0.5rem; left:0}
         
         .nav-toggle.expanded .nav-toggle-bar { background: transparent;         z-index: 2;
         }

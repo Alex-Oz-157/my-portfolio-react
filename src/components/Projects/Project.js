@@ -4,7 +4,6 @@ const Project = ({ img, title, description, link}) => {
 
   return (
     <div className="card">
-      <img className="img" src={`/static/media/${img}`} alt={title}></img>
       <h4 className="cardTitle">{title}</h4>
       <p className="cardDescription">
         {description}
@@ -16,3 +15,5 @@ const Project = ({ img, title, description, link}) => {
 };
 
 export default Project;
+
+//<img className="img" src={`/static/media/${img}`} alt={title}></img>

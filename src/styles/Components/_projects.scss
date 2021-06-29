@@ -10,6 +10,8 @@
     padding-right: 3rem;
     display: flex;
     justify-content: space-between;
+    position: relative;
+
 }
 
 .card {
@@ -23,13 +25,40 @@
     transition: all ease-in-out, 0.8s;
 }
 
-.img {
+// .img {
+//     width: 255px;
+//     height: 165px;
+//     background-color: #E5E5E5;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+// }
+
+.imgTest {
     width: 255px;
     height: 165px;
     background-color: #E5E5E5;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 48px;   
+}
+
+.imgTest2 {
+    width: 255px;
+    height: 165px;
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0;
+    left: 439px;   
+}
+
+.imgTest3 {
+    width: 255px;
+    height: 165px;
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0;
+    left: 830px;   
 }
 
 .cardTitle {
@@ -107,6 +136,33 @@
         align-items: center;
     }
 
+    .imgTest {
+        width: 255px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 0;
+        left: 12px;   
+    }
+    
+    .imgTest2 {
+        width: 255px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 448px;
+        left: 12px;   
+    }
+    
+    .imgTest3 {
+        width: 255px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 896px;
+        left: 12px;   
+    }
+
     .projectsBlock div {
         margin-bottom: 3rem;
     }
@@ -128,6 +184,33 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .imgTest {
+        width: 255px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 0;
+        left: 32px;   
+    }
+    
+    .imgTest2 {
+        width: 255px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 448px;
+        left: 32px;   
+    }
+    
+    .imgTest3 {
+        width: 255px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 896px;
+        left: 32px;   
     }
 
     .projectsBlock div {
@@ -154,6 +237,33 @@
 
     .img {
         width: 195px;
+    }
+
+    .imgTest {
+        width: 195px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 0;
+        left: 16px;   
+    }
+    
+    .imgTest2 {
+        width: 195px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 0;
+        left: 272px;   
+    }
+    
+    .imgTest3 {
+        width: 195px;
+        height: 165px;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 0;
+        left: 527px;   
     }
 
     .cardTitle {

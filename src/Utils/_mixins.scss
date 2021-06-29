@@ -9,7 +9,7 @@
 
 /* small Smartphones */
 @mixin smallSmart {
-    @media (min-width: 321px) and (max-width:424px) {
+    @media (min-width: 321px) and (max-width:348px) {
     @content;
     }
 }
