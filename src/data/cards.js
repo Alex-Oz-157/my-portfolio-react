@@ -8,7 +8,7 @@ const cards = [
     modal:1,
     illustrationModal:'img/room_homepage.png',
     descriptionModal:"Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor", 
-    link:'https://github.com/Alex-Oz-157/my-portfolio',
+    link:'https://github.com/Alex-Oz-157/room-homepage',
   },
 
   {
@@ -20,7 +20,7 @@ const cards = [
     modal:2,
     illustrationModal:'img/landing.png',
     descriptionModal:"Projet personnel de landing page construite de A à Z. La page est entièrement responsive design et réalisé en HTML, CSS et JS.", 
-    link:'https://github.com/Alex-Oz-157/my-portfolio-react',
+    link:'https://github.com/Alex-Oz-157/landing-land',
   },
 
   {
