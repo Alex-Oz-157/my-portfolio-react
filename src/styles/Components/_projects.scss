@@ -25,41 +25,19 @@
     transition: all ease-in-out, 0.8s;
 }
 
-// .img {
-//     width: 255px;
-//     height: 165px;
-//     background-color: #E5E5E5;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-// }
-
-.imgTest {
+.img {
     width: 255px;
     height: 165px;
     background-color: #E5E5E5;
     position: absolute;
     top: 0;
-    left: 48px;   
+    left: 0;
+    border-top: 2px solid $red-vibrato;
+    border-bottom: 3px solid $deep-blue;
+
 }
 
-.imgTest2 {
-    width: 255px;
-    height: 165px;
-    background-color: #E5E5E5;
-    position: absolute;
-    top: 0;
-    left: 439px;   
-}
 
-.imgTest3 {
-    width: 255px;
-    height: 165px;
-    background-color: #E5E5E5;
-    position: absolute;
-    top: 0;
-    left: 830px;   
-}
 
 .cardTitle {
     color: #fff;
@@ -135,34 +113,7 @@
         justify-content: space-between;
         align-items: center;
     }
-
-    .imgTest {
-        width: 255px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 0;
-        left: 12px;   
-    }
     
-    .imgTest2 {
-        width: 255px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 448px;
-        left: 12px;   
-    }
-    
-    .imgTest3 {
-        width: 255px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 896px;
-        left: 12px;   
-    }
-
     .projectsBlock div {
         margin-bottom: 3rem;
     }
@@ -186,33 +137,6 @@
         align-items: center;
     }
 
-    .imgTest {
-        width: 255px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 0;
-        left: 32px;   
-    }
-    
-    .imgTest2 {
-        width: 255px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 448px;
-        left: 32px;   
-    }
-    
-    .imgTest3 {
-        width: 255px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 896px;
-        left: 32px;   
-    }
-
     .projectsBlock div {
         margin-bottom: 3rem;
     }
@@ -223,6 +147,9 @@
 }
 
 @include tablets {
+    .projects {
+        padding: 2rem 1rem;
+    }
     .projectsBlock {
         padding-left: 1rem;
         padding-right: 1rem;
@@ -231,39 +158,12 @@
     }
 
     .card {
-        width: 195px;
+        width: 225px;
         padding: 12rem 1rem 12rem 1rem;
     }
 
     .img {
-        width: 195px;
-    }
-
-    .imgTest {
-        width: 195px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 0;
-        left: 16px;   
-    }
-    
-    .imgTest2 {
-        width: 195px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 0;
-        left: 272px;   
-    }
-    
-    .imgTest3 {
-        width: 195px;
-        height: 165px;
-        background-color: #E5E5E5;
-        position: absolute;
-        top: 0;
-        left: 527px;   
+        width: 225px;
     }
 
     .cardTitle {

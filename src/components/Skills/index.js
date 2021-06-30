@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Import icons
 import html5 from '../../assets/pictos/html5.svg';
 import css3 from '../../assets/pictos/code_css3.svg';
 import js from '../../assets/pictos/javascript_js.svg';

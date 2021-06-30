@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Import logos
 import aknowledgment from '../../assets/illustrations/undraw_Project_completed.svg';
 import oclock from '../../assets/logos/oclock.png';
 import opquast from '../../assets/logos/opquast.png';
@@ -11,6 +13,7 @@ const Formation = () => {
         <h2 className="title" id="formation">&#9612; Formation</h2>
         <section className="formation">
           <div className="chronologie">
+
             <div className="dot">
               <div className="block"> 
                 <div className="triangle"></div>
@@ -19,7 +22,6 @@ const Formation = () => {
                   <h5 className="formationTitle">Développeur web / web-mobile</h5>
                   <h5 className="formationTitle">O'clock (2020-2021)</h5>
                   <p className="formationDescription">Tronc commun :<br/>
-        
                     HTML, CSS, Git, | PHP | JavaScript, DOM | POO, SQL, Bootstrap
                     MVC | Back Office | AJAX, API | CM
                     <br/>
@@ -62,6 +64,7 @@ const Formation = () => {
                 </div>                
               </div>
             </div>
+
           </div>
           <img src={aknowledgment} alt="" className="aknowledgment"/>    
         </section>

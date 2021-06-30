@@ -1,5 +1,6 @@
 import React from 'react';
 
+// import components
 import Menu from '../Menu';
 import Greetings from '../Greetings';
 import About from '../About';
@@ -9,6 +10,7 @@ import Formation from '../Formation';
 import Contact from '../Contact';
 import Footer from '../Footer';
 
+// import datas + injected it to Projects as a props
 import cardsData from '../../data/cards';
 
 const App = () => {

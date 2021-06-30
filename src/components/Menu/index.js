@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 const Menu = () => {
 
+  // Display toggle + menu in responsive design
   const [showMenu, setMenu] = useState(false);
 
 	const handleShowMenu = () => {
@@ -23,6 +24,7 @@ const Menu = () => {
           <div className="nav-toggle-bar"></div>
         </div>
       </div>
+      {/* Define when to display responsive design menu*/}
       <nav className={`navigation ${showMenu ? "expanded" : " " }`}>
         <ul className="navList">
           <li className="navItem" ><a href="#top">&#9612; Home</a></li>

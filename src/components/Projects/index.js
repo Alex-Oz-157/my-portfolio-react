@@ -1,12 +1,8 @@
 import React from 'react';
 
 import Project from './Project';
-import test from '../../assets/img/room_homepage.png';
-import test1 from '../../assets/img/landing.png';
-import test2 from '../../assets/img/landing.png';
 
-
-
+// Using props - cards
 const Projects = ({ cards }) => {
 
     return (
@@ -14,6 +10,7 @@ const Projects = ({ cards }) => {
         <h2 className="title" id="projets">&#9612; Projets</h2>
         <section className="projects">
           <div className="projectsBlock">
+            {/* Display datas in several cards using an additional component Project */}
             {cards.map((card) => (
               <Project 
                 key={card.id} 
@@ -22,9 +19,6 @@ const Projects = ({ cards }) => {
                 description={card.description}
                 link={card.link} />
             ))}
-            <img className="imgTest" src={test} alt="blabla"></img>
-            <img className="imgTest2" src={test1} alt="blabla"></img>
-            <img className="imgTest3" src={test2} alt="blabla"></img>
           </div>
         </section>
       </>

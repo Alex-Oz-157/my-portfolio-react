@@ -1,4 +1,6 @@
 import React from 'react';
+
+// import logos
 import linkedin from '../../assets/pictos/linkedin.svg';
 import github from '../../assets/pictos/github.svg';
 import behance from '../../assets/pictos/behance.svg';
