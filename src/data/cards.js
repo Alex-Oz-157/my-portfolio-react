@@ -1,7 +1,7 @@
 const cards = [
   {
     id: 1,
-    img: 'img/room_homepage.png',
+    img: '/img/room_homepage.png',
     title:'Room homepage',
     description:"Exercice de réalisation d'un site statique en HTML, CSS et JS. Le brief est hérité du la plateforme pour développeur Frontend Mentor",      
     
@@ -13,7 +13,7 @@ const cards = [
 
   {
     id: 2,
-    img:'img/landing.png',
+    img:'/img/landing.png',
     title:'Landing page',
     description:'Projet personnel de landing page construite de A à Z. La page est entièrement responsive design et réalisé en HTML, CSS et JS.',      
     
@@ -25,7 +25,7 @@ const cards = [
 
   {
     id: 3,
-    img:'img/shuffler.png',
+    img:'/img/shuffler.png',
     title:'Shuffler',
     description:'Mini player audio imaginé dans le but de mettre en application React et SASS. Ce projet est cours de réalisation.',  
     
