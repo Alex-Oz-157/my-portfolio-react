@@ -22,8 +22,8 @@ const Formation = () => {
                   <h5 className="formationTitle">Développeur web / web-mobile</h5>
                   <h5 className="formationTitle">O'clock (2020-2021)</h5>
                   <p className="formationDescription">Tronc commun :<br/>
-                    HTML, CSS, Git, | PHP | JavaScript, DOM | POO, SQL, Bootstrap
-                    MVC | Back Office | AJAX, API | CM
+                    HTML, CSS, Git, | PHP | JavaScript, DOM | POO, SQL, Bootstrap,
+                    MVC | Back Office | AJAX, API | CMS
                     <br/>
                     <br/>
                     Spécialisation : REACT

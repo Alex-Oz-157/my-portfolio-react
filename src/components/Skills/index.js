@@ -82,8 +82,8 @@ const Skills = () => {
       </div>
       <div className="notaBene">
         <p className="presentation">
-          <em>NB : </em>Le site que vous consultez en ce moment a été protypé grâce à Figma avant d'être codé en statique (HTML, CSS, JS).
-          <br/>Il est dévéloppé en REACT et "habillé" grâce à SASS. Son code est accessible sur github <a href="https://github.com/Alex-Oz-157/my-portfolio-react" target="_blank" rel="noreferrer" className="goGithub">en cliquant ici.</a>
+          <em>NB : </em>Le site que vous consultez en ce moment a été protypé grâce à Figma avant d'être codé dans une version statique (HTML, CSS, JS).
+          <br/>Il est dévéloppé puis dynamisé en REACT et "habillé" grâce à SASS. Son code est accessible sur github <a href="https://github.com/Alex-Oz-157/my-portfolio-react" target="_blank" rel="noreferrer" className="goGithub">en cliquant ici.</a>
         </p>
       </div>
 
