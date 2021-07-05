@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const Menu = () => {
 
@@ -12,28 +13,46 @@ const Menu = () => {
 
   return (
     <header>
-      <a href="#top">
+      <HashLink smooth to="/top/#top">
         <div className="logo">
           <p className="logoPortfolio">Portfolio.</p>
           <p className="logoName">Alexandre Maspimby</p>
         </div>
-      </a>
+      </HashLink>
       <div className="separator"></div>
       <div className="nav-responsive">
-        <div className="nav-toggle" onClick={handleShowMenu}>
+        <div className={`nav-toggle ${showMenu ? "expanded" : "hidenav"}`} onClick={handleShowMenu}>
           <div className="nav-toggle-bar"></div>
         </div>
       </div>
       {/* Define when to display responsive design menu*/}
-      <nav className={`navigation ${showMenu ? "expanded" : " " }`}>
+      <nav className={`navigation ${showMenu ? "expanded" : "hidenav" }`}>
         <ul className="navList">
-          <li className="navItem" ><a href="#top">&#9612; Home</a></li>
-          <li className="navItem" id="apropos" ><a href="#propos">À propos</a></li>
-          <li className="navItem" id="tech"><a href="#techniques">Compétences techniques</a></li>
-          <li className="navItem" id="projects"><a href="#projets"> Projets</a></li>
-          <li className="navItem" id="studies"><a href="#formation"> Formation</a></li>
-          <li className="navItem" id="contactme"><a href="#contact"> Contact</a></li>
+          <li className="navItem" >
+            <HashLink smooth to="/top/#top">&#9612; Home</HashLink>
+          </li>
+
+          <li className="navItem">
+            <HashLink smooth to="/apropos/#propos">À propos</HashLink>
+          </li>
+
+          <li className="navItem">
+            <HashLink smooth to="/techniques/#techniques">Compétences techniques</HashLink>
+          </li>
+
+          <li className="navItem">
+            <HashLink smooth to="/projets/#projets">Projets</HashLink>
+          </li>
+
+          <li className="navItem">
+            <HashLink smooth to="/formation/#formation">Formation</HashLink>
+          </li>
+
+          <li className="navItem">
+            <HashLink smooth to="/contact/#contact">Contact</HashLink>
+          </li>
         </ul>
+
       </nav>
     </header>      
   );

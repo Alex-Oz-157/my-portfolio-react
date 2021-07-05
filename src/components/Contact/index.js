@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 // import logos
 import linkedin from '../../assets/pictos/linkedin.svg';
@@ -37,7 +38,7 @@ const Contact = () => {
         </div>
         <button className="contactButton"><a href="mailto:maspimbya@gmail.com?Subject=Stay%tuned" target="_blank" rel="noreferrer">Stay tuned</a></button>
       </section>
-      <a href="#top"><button className="poppop">Pop Pop!</button></a>
+      <HashLink smooth to="/top/#top"><button className="poppop">Pop Pop!</button></HashLink>
       </>
     );
 }

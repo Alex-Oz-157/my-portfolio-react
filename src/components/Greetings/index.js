@@ -1,6 +1,6 @@
 import React from 'react';
 import resumeIcon from '../../assets/pictos/resume.svg';
-import resume from '../../assets/resume/CV_developpeur-front-end-junior-alexandre_maspimby.pdf';
+import resume from '../../assets/resume/CV_alexandre_maspimby.pdf';
 
 const Greetings = () => {
 
@@ -16,7 +16,7 @@ const Greetings = () => {
       <strong>
         <p className="quote__2">but it makes it look good...<em>and more usable!</em></p>
       </strong>
-      <a href={resume} target="_blank" rel="noreferrer">
+      <a href={resume} target="_blank" rel="noreferrer" alt="cv développeur front-end junior">
         <div className="resume">
           <img src={resumeIcon} alt="Mon CV" />
           <p className="who">Consulter mon CV</p>
