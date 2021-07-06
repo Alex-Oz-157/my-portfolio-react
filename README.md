@@ -17,6 +17,8 @@ At first I began with a quick wireframe on Figma!
 
 Then I worked on a blueprint of the project structured in HTML, CSS and JavaScript.
 
+https://github.com/Alex-Oz-157/my-portfolio
+
 And I sealed it using REACT and SAS which lead to the last version your are about to visit.
 
 # Getting Started with Create React App
