@@ -19,7 +19,7 @@ Then I worked on a blueprint of the project structured in HTML, CSS and JavaScri
 
 https://github.com/Alex-Oz-157/my-portfolio
 
-And I sealed it using REACT and SAS which lead to the last version your are about to visit.
+And I sealed it using REACT and SASS which lead to the last version your are about to visit.
 
 # Getting Started with Create React App
 
