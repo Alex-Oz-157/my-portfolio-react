@@ -1,6 +1,6 @@
 import React from 'react';
 import resumeIcon from '../../assets/pictos/resume.svg';
-import resume from '../../assets/resume/CV_alexandre_maspimby.pdf';
+import resume from '../../assets/resume/CV_alexandre_maspimby.jpg';
 
 const Greetings = () => {
 
@@ -8,7 +8,7 @@ const Greetings = () => {
   return (
     <div className="greetings" id="top">
       <h1 className="welcome" id="Bienvenue">Bienvenue</h1>
-      <p className="who">Je m'appelle Alexandre,</p>
+      <p className="who">Alexandre Maspimby,</p>
       <p className="who">Je suis développeur web Front-end Junior</p>
       <strong>
         <p className="quote__1">Design won't save the world</p>

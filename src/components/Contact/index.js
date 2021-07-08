@@ -15,7 +15,7 @@ const Contact = () => {
       <section className="contact" id="contact">
         <h2 className="title" >&#9612; contact</h2>
         <p className="cardDescription">
-          Toujours convaincu que l'on a toujours quelque chose à apprendre d'un rendez-vous de travail,<br/>
+          Convaincu que l'on a toujours quelque chose à apprendre d'un rendez-vous de travail,<br/>
           je serai ravi de pouvoir échanger avec vous. <br/><br/>
           Retrouvez mes différents travaux ci-dessous et n'hésitez pas à me contacter !
         </p>

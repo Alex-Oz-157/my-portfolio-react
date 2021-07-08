@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a36eaaf3.chunk.css",
-    "main.js": "/static/js/main.cee14421.chunk.js",
-    "main.js.map": "/static/js/main.cee14421.chunk.js.map",
+    "main.css": "/static/css/main.361ba793.chunk.css",
+    "main.js": "/static/js/main.26b79258.chunk.js",
+    "main.js.map": "/static/js/main.26b79258.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fb363687.js",
     "runtime-main.js.map": "/static/js/runtime-main.fb363687.js.map",
     "static/js/2.63446b8d.chunk.js": "/static/js/2.63446b8d.chunk.js",
     "static/js/2.63446b8d.chunk.js.map": "/static/js/2.63446b8d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a36eaaf3.chunk.css.map": "/static/css/main.a36eaaf3.chunk.css.map",
+    "static/css/main.361ba793.chunk.css.map": "/static/css/main.361ba793.chunk.css.map",
     "static/js/2.63446b8d.chunk.js.LICENSE.txt": "/static/js/2.63446b8d.chunk.js.LICENSE.txt",
-    "static/media/CV_alexandre_maspimby.b9f2182a.pdf": "/static/media/CV_alexandre_maspimby.b9f2182a.pdf",
+    "static/media/CV_alexandre_maspimby.f702271f.jpg": "/static/media/CV_alexandre_maspimby.f702271f.jpg",
     "static/media/adobe_xd.2e96ca56.svg": "/static/media/adobe_xd.2e96ca56.svg",
+    "static/media/index.scss": "/static/media/dot-grid.c18d167e.png",
     "static/media/behance.1463fdd1.svg": "/static/media/behance.1463fdd1.svg",
     "static/media/code_css3.fb4a372a.svg": "/static/media/code_css3.fb4a372a.svg",
-    "static/media/index.scss": "/static/media/irlande_portrait3.a2bc6cab.png",
     "static/media/figma.fa45bdac.svg": "/static/media/figma.fa45bdac.svg",
     "static/media/flickr.75dad89d.svg": "/static/media/flickr.75dad89d.svg",
     "static/media/git.b46f5775.svg": "/static/media/git.b46f5775.svg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.fb363687.js",
     "static/js/2.63446b8d.chunk.js",
-    "static/css/main.a36eaaf3.chunk.css",
-    "static/js/main.cee14421.chunk.js"
+    "static/css/main.361ba793.chunk.css",
+    "static/js/main.26b79258.chunk.js"
   ]
 }
